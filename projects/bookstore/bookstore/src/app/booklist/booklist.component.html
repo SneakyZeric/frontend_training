@@ -1,0 +1,23 @@
+<table class="table table-bordered border-dark table-striped me-4" id = "book_table">
+  <thead>
+  <tr>
+    <th scope="col"><a href="" class="sort-by">ID<i class = "fa fa-sort ms-3"></i></a></th>
+    <th scope="col"><a href="" class="sort-by">Name<i class = "fa fa-sort ms-3"></i></a></th>
+    <th scope="col"><a href="" class="sort-by">Price<i class = "fa fa-sort ms-3"></i></a></th>
+    <th scope="col">Author</th>
+    <th scope="col">Operation</th>
+  </tr>
+  </thead>
+  <tbody id="table_body">
+    <div class="products-list-container">
+      <ng-container *ngIf="books">
+        <div *ngFor="let book of books">
+          <h1>{{book.name}}</h1>
+        </div>
+
+      </ng-container>
+
+    </div>
+  </tbody>
+
+</table>

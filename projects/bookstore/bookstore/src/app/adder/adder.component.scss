@@ -1,0 +1,17 @@
+.item, #add_submit, #edit_submit{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#add_book, #edit_book{
+  min-width: 400px;
+  min-height: 300px;
+  gap: 50px;
+}
+button{
+  box-shadow: 3px 3px 3px black !important;
+}
+
+label{
+  width: 60px;
+}

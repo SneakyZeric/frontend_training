@@ -1,0 +1,33 @@
+table{
+  table-layout: auto;
+  width: 100%;
+  white-space: nowrap;
+}
+th a{
+  padding-right: 18px;
+}
+
+th a:link,
+th a:visited,
+th a:hover,
+th a:active {
+  color: black;
+  text-decoration: none;
+}
+
+thead{
+  background-color: rgb(192, 192, 192);
+}
+
+tr, td, th{
+  border-right: solid 2px black !important;
+  border-left: solid 2px black !important;
+  border-bottom: 0 !important;
+  border-top: 0 !important;
+  text-align: center;
+}
+
+.table-bordered {
+  border: 2px solid black;
+
+}
